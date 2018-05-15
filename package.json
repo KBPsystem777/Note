@@ -1,0 +1,27 @@
+{
+  "name": "note",
+  "version": "1.0.0",
+  "description": "This is a back-end for my Note taking app. Works like Google Keep",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KBPsystem777/Note.git"
+  },
+  "author": "Koleen BP",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KBPsystem777/Note/issues"
+  },
+  "homepage": "https://github.com/KBPsystem777/Note#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongodb": "^3.1.0-beta4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.4"
+  }
+}
